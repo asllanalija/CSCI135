@@ -1,0 +1,29 @@
+#include <iostream>
+class Triangle
+{
+private:
+    double base;
+    double height;
+public:
+    Triangle()
+    {
+        base = 10;
+        height = 10;
+    }
+
+    Triangle(double b, double h)
+    {
+        base = b;
+        height = h;
+    }
+
+    double get_base()
+    {
+        return base;
+    }
+
+    double get_area()
+    {
+        return base*height/2;
+    }
+};

@@ -1,0 +1,5 @@
+clone repository
+read the issue of partner's lab
+implement the issue, not in master branch but in another branch called "Dev"
+
+git branch dev; git checkout dev; <--- do everything in dev. do NOT push to master

@@ -1,0 +1,14 @@
+#include <iostream>
+
+
+vector<int> append(vector<int> a, vector<int> b)
+{
+    vector<int> res = a;
+    for (int i = 0; i < b.size(); b++)
+    {
+        res.push_back(b.at(i));
+    }
+    return res;
+}
+
+int main;
