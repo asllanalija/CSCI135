@@ -1,8 +1,0 @@
-#include "BigTriangle.h"
-
-
-BigTriangle::BigTriangle(double base, double height)
-{
-    this -> base = base;
-    this -> height = height;
-}
